@@ -214,9 +214,9 @@ while True:
             printFinalResult(matrix)
 
             print("\33[33mFim do programa!")
+            break
         else:
-            print("\33[31mPoxa vida! A matriz não pode ser resolvida, pois ela não é válida na resolução de Gauss")
-        break
+            print("\33[31mPoxa vida! A matriz não pode ser resolvida, pois ela não é válida na resolução de Gauss \n")
     except FileNotFoundError:
         print("\33[31mOps! O arquivo não existe \n")
     except ValueError:
